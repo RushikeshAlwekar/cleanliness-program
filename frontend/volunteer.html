@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volunteer for a Program</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Volunteer for a Cleanliness Program</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="host.html">Host a Program</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Available Programs</h2>
+        <div id="availablePrograms"></div>
+      </section>
+      <section>
+        <h2>Register as a Volunteer</h2>
+        <form id="volunteerForm">
+          <input
+            type="text"
+            id="volunteerName"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="volunteerEmail"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            id="volunteerMessage"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Register</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Cleanliness Program</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

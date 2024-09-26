@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sign Up</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Create an Account as a Volunteer</h2>
+        <form id="signupForm">
+          <input type="text" id="signupName" placeholder="Your Name" required />
+          <input
+            type="email"
+            id="signupEmail"
+            placeholder="Your Email"
+            required
+          />
+          <input
+            type="password"
+            id="signupPassword"
+            placeholder="Your Password"
+            required
+          />
+          <button type="submit">Sign Up as Volunteer</button>
+        </form>
+      </section>
+      <section>
+        <h2>Create an Account as a Host</h2>
+        <form id="hostSignupForm">
+          <input
+            type="text"
+            id="hostSignupName"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="hostSignupEmail"
+            placeholder="Your Email"
+            required
+          />
+          <input
+            type="password"
+            id="hostSignupPassword"
+            placeholder="Your Password"
+            required
+          />
+          <button type="submit">Sign Up as Host</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Cleanliness Program</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

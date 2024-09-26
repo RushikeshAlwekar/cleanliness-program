@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333; /* Default text color */
+  transition: background-color 0.3s ease; /* Transition for background color */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transition for link color */
+}
+
+nav ul li a:hover {
+  color: #28a745; /* Change color on hover */
+}
+
+main {
+  padding: 20px;
+  animation: fadeIn 0.5s ease; /* Fade-in animation for main content */
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease; /* Transition for section on hover */
+}
+
+section:hover {
+  transform: scale(1.02); /* Slight scale-up effect on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners for form inputs */
+  transition: border-color 0.3s ease; /* Transition for border color */
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #28a745; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for button */
+}
+
+form button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}

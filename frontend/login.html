@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Login to Your Account</h2>
+        <form id="loginForm">
+          <label>
+            <input type="radio" name="userType" value="volunteer" required />
+            Volunteer
+          </label>
+          <label>
+            <input type="radio" name="userType" value="host" />
+            Host
+          </label>
+          <br />
+          <input
+            type="email"
+            id="loginEmail"
+            placeholder="Your Email"
+            required
+          />
+          <input
+            type="password"
+            id="loginPassword"
+            placeholder="Your Password"
+            required
+          />
+          <button type="submit">Login</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Cleanliness Program</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
