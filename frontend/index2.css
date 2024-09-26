@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color:#36b912;
+    gap: 1rem;
+}
+#header_1{
+    font-size: 1rem;
+}
+#header_2{
+    display: none;
+}
+@media screen and (min-width:660px){
+    #header_2{
+        display: block;
+    }
+    #header_1{
+        font-size: 2rem;
+    }
+    #img_header{
+        display: none;
+    }
+
+}
+#img_header{
+    width: 2rem;
+    height: 2rem;
+}
+
+@media screen and (max-width:660px){
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+footer{
+    background-color: #36b912;
+}
